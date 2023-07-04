@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphawave"
+version = "0.3.0"
+authors = [
+  { name="Steven Ickman", email="author@example.com" },
+  { name="Bruce DAmbrosio", email="bruce.dambrosio@gmail.com" },
+]
+
+description = "AlphaWave - a client for interfacing with Large Language Models (LLM)"
+
+
+readme = "README.md"
+
+requires-python = ">=3.8"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "promptrix",
+    "requests",
+    "tiktoken",
+    "pyyaml",
+    "pyee",
+    "selenium",
+    "wordfreq",
+    "tenacity",	
+    "openai",
+    "nltk",
+    "transformers",
+    "accelerate",
+    "torch",
+    'importlib-metadata; python_version<"3.9"',
+]
+
+
+[project.urls]
+"Homepage" = "https://tuuyi.io/alphawave"
+"Bug Tracker" = "https://github.com/Stevenic/alphawave-py/issues"

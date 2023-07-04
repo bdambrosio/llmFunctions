@@ -1,0 +1,21 @@
+{'status': 'success', 'message': {'role': 'assistant', 'content': 'I\'m doing well, thank you for asking. How may I assist you today? \n{"answer":"I\'m doing well, thank you for asking. How may I assist you today?", "sentiment":"positive"}'}},
+
+
+OS pre sub:
+{'answer':'I am doing well, thank you for asking.','sentiment':'positive'}
+OS post sub:
+{"answer":'I am doing well, thank you for asking.',"sentiment":'positive'}
+OS JSON received from Response:
+['{"answer":\'I am doing well, thank you for asking.\',"sentiment":\'positive\'}']
+OS validate input:
+'{"answer":\'I am doing well, thank you for asking.\',"sentiment":\'positive\'}'
+
+
+
+Open pre sub:
+{"answer":"I'm doing well, thank you for asking. How may I assist you today?", "sentiment":"positive"}
+Open post sub:
+{"answer":"I'm doing well, thank you for asking. How may I assist you today?", "sentiment":"positive"}
+Open JSON received from Response:
+[{'answer': "I'm doing well, thank you for asking. How may I assist you today?", 'sentiment': 'positive'}]
+Open validate input:
